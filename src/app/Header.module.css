@@ -1,0 +1,99 @@
+.header {
+    background-color: grey;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logoSection {
+    display: flex;
+    align-items: center;
+  }
+  
+  .collegeName {
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navLinks a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navLinks a:hover {
+    text-decoration: underline;
+  }
+  
+  .subHeader {
+    background-color: rgb(210, 210, 210);
+    color: rgb(243, 241, 241);
+    padding: 60px; /* Double the height of the main header */
+    text-align: center;
+  }
+  
+  .subHeader h2 {
+    font-size: 36px; /* Large font for "Training & Placement Office" */
+    margin: 0;
+    color: black; /* Change the text color to black for contrast */
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 50px; /* Adjusted padding to create space around containers */
+  }
+  
+  .container {
+    width: 75%; /* Take 75% of the width */
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .overviewHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .overviewHeader h3 {
+    font-size: 28px;
+    margin-left: 10px; /* Space between logo and text */
+    color: black;
+  }
+  
+  .container p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .contactContainer {
+    width: 24%; /* Take 25% of the width */
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .contactContainer h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .contactContainer p {
+    font-size: 16px;
+    color: hsl(0, 0%, 33%);
+    margin-bottom: 20px;
+  }
+  
